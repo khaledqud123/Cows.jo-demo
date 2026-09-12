@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>COWS BURGER | Charcoaled With Love</title>
+  <meta name="description" content="COWS Burger — Charcoaled With Love. Premium charcoal burgers in Amman.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       LOADER
+  ========================== -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">COWS<span>®</span></div>
+      <div class="loader-line">
+        <span></span>
+      </div>
+      <p>CHARCOALED WITH LOVE</p>
+    </div>
+  </div>
+
+
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+  <header class="navbar" id="navbar">
+
+    <a href="#home" class="brand">
+      <span class="brand-mark">COWS</span>
+      <span class="brand-sub">CHARCOALED WITH LOVE</span>
+    </a>
+
+    <nav class="desktop-nav">
+      <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+      <a href="#menu" data-en="Menu" data-ar="القائمة">Menu</a>
+      <a href="#story" data-en="Our Story" data-ar="قصتنا">Our Story</a>
+      <a href="#reviews" data-en="Reviews" data-ar="آراء الزبائن">Reviews</a>
+      <a href="#location" data-en="Location" data-ar="الموقع">Location</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="language-toggle" id="languageToggle">
+        <span class="lang-en">عربي</span>
+        <span class="lang-ar">English</span>
+      </button>
+
+      <a href="#menu" class="nav-order">
+        <span data-en="Order Now" data-ar="اطلب الآن">Order Now</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+  </header>
+
+
+  <!-- =========================
+       MOBILE MENU
+  ========================== -->
+  <div class="mobile-menu" id="mobileMenu">
+
+    <div class="mobile-menu-inner">
+
+      <a href="#home" data-en="Home" data-ar="الرئيسية">Home</a>
+      <a href="#menu" data-en="Menu" data-ar="القائمة">Menu</a>
+      <a href="#story" data-en="Our Story" data-ar="قصتنا">Our Story</a>
+      <a href="#reviews" data-en="Reviews" data-ar="آراء الزبائن">Reviews</a>
+      <a href="#location" data-en="Location" data-ar="الموقع">Location</a>
+
+      <a href="#menu" class="mobile-order" data-en="ORDER NOW" data-ar="اطلب الآن">
+        ORDER NOW
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero" id="home">
+
+      <div class="hero-noise"></div>
+
+      <div class="hero-grid"></div>
+
+      <div class="hero-content reveal">
+
+        <div class="hero-kicker">
+          <span></span>
+          <p data-en="AMMAN • JORDAN" data-ar="عمّان • الأردن">
+            AMMAN • JORDAN
+          </p>
+        </div>
+
+        <h1>
+          <span>CHARCOALED</span>
+          <span class="yellow-text">WITH LOVE.</span>
+        </h1>
+
+        <p class="hero-description"
+           data-en="Big flavour. Charcoal fire. Burgers made to be remembered."
+           data-ar="نكهة قوية. نار الفحم. برغر صُمم ليبقى في الذاكرة.">
+          Big flavour. Charcoal fire. Burgers made to be remembered.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#menu" class="btn btn-primary magnetic">
+            <span data-en="Explore Menu" data-ar="استكشف القائمة">
+              Explore Menu
+            </span>
+            <span class="btn-arrow">↗</span>
+          </a>
+
+          <a href="#story" class="btn btn-outline magnetic">
+            <span data-en="Discover Cows" data-ar="اكتشف Cows">
+              Discover Cows
+            </span>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- Floating burger visual -->
+      <div class="hero-product">
+
+        <div class="product-glow"></div>
+
+        <div class="floating-ring ring-one"></div>
+        <div class="floating-ring ring-two"></div>
+
+        <div class="hero-burger-wrap tilt-card">
+
+          <div class="hero-burger-shadow"></div>
+
+          <img
+            class="hero-burger"
+            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=85"
+            alt="Premium burger"
+          >
+
+        </div>
+
+        <div class="hero-sticker">
+          <span>100%</span>
+          <small>CHARCOAL</small>
+        </div>
+
+      </div>
+
+
+      <div class="hero-bottom">
+
+        <div class="scroll-indicator">
+          <span></span>
+          <p data-en="SCROLL TO EXPLORE" data-ar="مرر للاستكشاف">
+            SCROLL TO EXPLORE
+          </p>
+        </div>
+
+        <div class="hero-number">
+          <span>01</span>
+          <i></i>
+          <span>04</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         BRAND STRIP
+    ========================== -->
+    <section class="brand-strip">
+
+      <div class="marquee">
+
+        <div class="marquee-track">
+
+          <span>CHARCOALED WITH LOVE</span>
+          <b>✦</b>
+          <span>COWS BURGER</span>
+          <b>✦</b>
+          <span>BIG FLAVOUR</span>
+          <b>✦</b>
+          <span>CHARCOALED WITH LOVE</span>
+          <b>✦</b>
+          <span>COWS BURGER</span>
+          <b>✦</b>
+          <span>BIG FLAVOUR</span>
+          <b>✦</b>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         INTRO
+    ========================== -->
+    <section class="intro section">
+
+      <div class="container intro-grid">
+
+        <div class="section-label reveal">
+          <span>01</span>
+          <p data-en="THE COWS EXPERIENCE" data-ar="تجربة COWS">
+            THE COWS EXPERIENCE
+          </p>
+        </div>
+
+        <div class="intro-copy reveal">
+
+          <h2>
+            BURGER.
+            <span>FIRE.</span>
+            <br>
+            <strong>ATTITUDE.</strong>
+          </h2>
+
+          <p
+            data-en="Cows is built around one simple idea: a great burger should have character. Charcoal, flavour and carefully built ingredients come together in every bite."
+            data-ar="تقوم Cows على فكرة بسيطة: البرغر الرائع يجب أن يمتلك شخصية. الفحم والنكهة والمكونات المختارة بعناية تجتمع في كل قضمة."
+          >
+            Cows is built around one simple idea: a great burger should have character.
+            Charcoal, flavour and carefully built ingredients come together in every bite.
+          </p>
+
+          <a href="#story" class="text-link">
+            <span data-en="Discover our story" data-ar="اكتشف قصتنا">
+              Discover our story
+            </span>
+            <b>↗</b>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FEATURED
+    ========================== -->
+    <section class="featured">
+
+      <div class="featured-image">
+
+        <img
+          src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1800&q=85"
+          alt="Burger"
+          loading="lazy"
+        >
+
+        <div class="image-overlay"></div>
+
+      </div>
+
+      <div class="featured-content">
+
+        <div class="section-label light">
+          <span>02</span>
+          <p data-en="THE SIGNATURE" data-ar="الاختيار المميز">
+            THE SIGNATURE
+          </p>
+        </div>
+
+        <div class="featured-title">
+
+          <p class="small-label">COWS</p>
+
+          <h2>
+            SINGLE
+            <span>01</span>
+          </h2>
+
+          <div class="featured-price">
+            <strong>1.90</strong>
+            <span>JOD</span>
+          </div>
+
+          <p
+            data-en="The classic Cows experience. Simple, bold and charcoaled."
+            data-ar="تجربة Cows الكلاسيكية. بسيطة، قوية ومشوية على الفحم."
+          >
+            The classic Cows experience. Simple, bold and charcoaled.
+          </p>
+
+          <a href="#menu" class="btn btn-yellow magnetic">
+            <span data-en="View Menu" data-ar="شاهد القائمة">
+              View Menu
+            </span>
+            <span>↗</span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         MENU
+    ========================== -->
+    <section class="menu-section section" id="menu">
+
+      <div class="container">
+
+        <div class="menu-heading">
+
+          <div class="section-label reveal">
+            <span>03</span>
+            <p data-en="THE MENU" data-ar="القائمة">
+              THE MENU
+            </p>
+          </div>
+
+          <div class="menu-heading-copy reveal">
+
+            <h2>
+              PICK YOUR
+              <span>FAVOURITE.</span>
+            </h2>
+
+            <p
+              data-en="Real Cows menu. Reimagined for a better digital experience."
+              data-ar="قائمة Cows الحقيقية، بتجربة رقمية أفضل."
+            >
+              Real Cows menu. Reimagined for a better digital experience.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Category buttons -->
+        <div class="menu-tabs reveal">
+
+          <button class="menu-tab active" data-filter="burgers"
+                  data-en="Burgers" data-ar="البرغر">
+            Burgers
+          </button>
+
+          <button class="menu-tab" data-filter="fries"
+                  data-en="Fries & Meals" data-ar="البطاطا والوجبات">
+            Fries & Meals
+          </button>
+
+          <button class="menu-tab" data-filter="extras"
+                  data-en="Extras" data-ar="إضافات">
+            Extras
+          </button>
+
+          <button class="menu-tab" data-filter="drinks"
+                  data-en="Drinks" data-ar="المشروبات">
+            Drinks
+          </button>
+
+          <button class="menu-tab" data-filter="seasonal"
+                  data-en="Seasonal" data-ar="الموسمية">
+            Seasonal
+          </button>
+
+        </div>
+
+
+        <!-- Menu grid -->
+        <div class="menu-grid" id="menuGrid"></div>
+
+
+        <div class="menu-note reveal">
+
+          <span>✦</span>
+
+          <p
+            data-en="Menu and pricing shown for demonstration purposes. Final production content can be updated directly by Cows."
+            data-ar="القائمة والأسعار المعروضة لأغراض العرض. يمكن تحديث المحتوى النهائي مباشرة من قبل Cows."
+          >
+            Menu and pricing shown for demonstration purposes. Final production
+            content can be updated directly by Cows.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         STORY
+    ========================== -->
+    <section class="story section" id="story">
+
+      <div class="story-shape shape-one"></div>
+      <div class="story-shape shape-two"></div>
+
+      <div class="container story-grid">
+
+        <div class="story-visual reveal">
+
+          <div class="story-photo tilt-card">
+
+            <img
+              src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?auto=format&fit=crop&w=1000&q=85"
+              alt="Burger preparation"
+              loading="lazy"
+            >
+
+          </div>
+
+          <div class="story-badge">
+            <span>03</span>
+            <p>CHARCOAL<br>FIRST</p>
+          </div>
+
+        </div>
+
+
+        <div class="story-copy reveal">
+
+          <div class="section-label">
+            <span>04</span>
+            <p data-en="OUR PHILOSOPHY" data-ar="فلسفتنا">
+              OUR PHILOSOPHY
+            </p>
+          </div>
+
+          <h2>
+            MADE
+            <span>WITH</span>
+            CHARACTER.
+          </h2>
+
+          <p
+            data-en="We believe the grill should be part of the flavour. Charcoal gives the burger depth, smoke and personality — the things that make you want another bite."
+            data-ar="نؤمن بأن الشواية جزء من النكهة. الفحم يمنح البرغر عمقاً ودخاناً وشخصية — وهي الأشياء التي تجعلك ترغب بقضمة أخرى."
+          >
+            We believe the grill should be part of the flavour. Charcoal gives the
+            burger depth, smoke and personality — the things that make you want another bite.
+          </p>
+
+          <div class="story-stats">
+
+            <div>
+              <strong>01</strong>
+              <span data-en="CHARCOAL" data-ar="فحم">CHARCOAL</span>
+            </div>
+
+            <div>
+              <strong>02</strong>
+              <span data-en="FLAVOUR" data-ar="نكهة">FLAVOUR</span>
+            </div>
+
+            <div>
+              <strong>03</strong>
+              <span data-en="LOVE" data-ar="حب">LOVE</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         REVIEW SECTION
+    ========================== -->
+    <section class="reviews section" id="reviews">
+
+      <div class="container">
+
+        <div class="reviews-heading reveal">
+
+          <div class="section-label">
+            <span>05</span>
+            <p data-en="THE PEOPLE" data-ar="آراء الناس">
+              THE PEOPLE
+            </p>
+          </div>
+
+          <h2>
+            THEY
+            <span>GET IT.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="review-score reveal">
+
+          <div class="score-number">4.8</div>
+
+          <div class="score-info">
+            <div class="stars">★★★★★</div>
+            <strong data-en="Loved by thousands" data-ar="محبوب من الآلاف">
+              Loved by thousands
+            </strong>
+            <p
+              data-en="A strong local reputation deserves a digital experience to match."
+              data-ar="سمعة محلية قوية تستحق تجربة رقمية تليق بها."
+            >
+              A strong local reputation deserves a digital experience to match.
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="reviews-grid">
+
+          <article class="review-card reveal">
+            <span class="quote">“</span>
+            <div class="stars">★★★★★</div>
+            <p data-en="Great burger, great flavour and the charcoal makes the difference."
+               data-ar="برغر رائع ونكهة مميزة، والفحم يصنع الفرق.">
+              Great burger, great flavour and the charcoal makes the difference.
+            </p>
+            <span class="review-meta">CUSTOMER REVIEW</span>
+          </article>
+
+          <article class="review-card featured-review reveal">
+            <span class="quote">“</span>
+            <div class="stars">★★★★★</div>
+            <p data-en="One of those places where you immediately know what the brand is about."
+               data-ar="من الأماكن التي تعرف فوراً ما الذي تمثله العلامة التجارية.">
+              One of those places where you immediately know what the brand is about.
+            </p>
+            <span class="review-meta">CUSTOMER REVIEW</span>
+          </article>
+
+          <article class="review-card reveal">
+            <span class="quote">“</span>
+            <div class="stars">★★★★★</div>
+            <p data-en="Simple menu, bold taste and a really memorable burger."
+               data-ar="قائمة بسيطة، طعم قوي وبرغر لا يُنسى.">
+              Simple menu, bold taste and a really memorable burger.
+            </p>
+            <span class="review-meta">CUSTOMER REVIEW</span>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         GALLERY
+    ========================== -->
+    <section class="gallery section">
+
+      <div class="container">
+
+        <div class="gallery-header reveal">
+
+          <div class="section-label">
+            <span>06</span>
+            <p data-en="THE FEELING" data-ar="الأجواء">
+              THE FEELING
+            </p>
+          </div>
+
+          <h2>
+            SEE THE
+            <span>CRAVING.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+          <div class="gallery-item large reveal">
+            <img
+              src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?auto=format&fit=crop&w=1200&q=85"
+              alt="Burger"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="gallery-item reveal">
+            <img
+              src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=900&q=85"
+              alt="Burger and fries"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="gallery-item reveal">
+            <img
+              src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=900&q=85"
+              alt="Cheeseburger"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="gallery-item wide reveal">
+            <img
+              src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=1400&q=85"
+              alt="Restaurant food"
+              loading="lazy"
+            >
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ORDER CTA
+    ========================== -->
+    <section class="order-section">
+
+      <div class="order-pattern"></div>
+
+      <div class="container order-inner reveal">
+
+        <p class="order-kicker">COWS BURGER</p>
+
+        <h2>
+          HUNGRY?
+          <span>GOOD.</span>
+        </h2>
+
+        <p
+          data-en="Your next burger is closer than you think."
+          data-ar="برغرك القادم أقرب مما تتخيل."
+        >
+          Your next burger is closer than you think.
+        </p>
+
+        <div class="order-buttons">
+
+          <a href="tel:+962799935135" class="btn btn-dark magnetic">
+            <span data-en="Call to Order" data-ar="اتصل للطلب">
+              Call to Order
+            </span>
+            <span>↗</span>
+          </a>
+
+          <a href="#location" class="btn btn-light magnetic">
+            <span data-en="Find Cows" data-ar="اعثر على Cows">
+              Find Cows
+            </span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         LOCATION
+    ========================== -->
+    <section class="location section" id="location">
+
+      <div class="container location-grid">
+
+        <div class="location-copy reveal">
+
+          <div class="section-label">
+            <span>07</span>
+            <p data-en="COME SAY HI" data-ar="زورنا">
+              COME SAY HI
+            </p>
+          </div>
+
+          <h2>
+            FIND
+            <span>COWS.</span>
+          </h2>
+
+          <p
+            data-en="Ready for charcoal, burgers and a little bit of attitude?"
+            data-ar="جاهز للفحم والبرغر والقليل من الشخصية؟"
+          >
+            Ready for charcoal, burgers and a little bit of attitude?
+          </p>
+
+          <div class="location-details">
+
+            <div class="detail">
+              <span>LOCATION</span>
+              <strong>Amman, Jordan</strong>
+            </div>
+
+            <div class="detail">
+              <span>PHONE</span>
+              <a href="tel:+962799935135">079 993 5135</a>
+            </div>
+
+            <div class="detail">
+              <span>WEB</span>
+              <strong>COWS.JO</strong>
+            </div>
+
+          </div>
+
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Cows+Burger+Amman"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-primary magnetic"
+          >
+            <span data-en="Open in Maps" data-ar="افتح في الخرائط">
+              Open in Maps
+            </span>
+            <span>↗</span>
+          </a>
+
+        </div>
+
+
+        <div class="map-card reveal">
+
+          <div class="map-grid"></div>
+
+          <div class="map-pin">
+            <div class="pin-pulse"></div>
+            <span>🐄</span>
+          </div>
+
+          <div class="map-info">
+            <small>COWS BURGER</small>
+            <strong>AMMAN</strong>
+            <span>JORDAN</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <div class="brand-mark">COWS</div>
+
+          <p>
+            CHARCOALED<br>
+            WITH LOVE.
+          </p>
+
+        </div>
+
+        <div class="footer-links">
+
+          <div>
+            <span>EXPLORE</span>
+            <a href="#menu">Menu</a>
+            <a href="#story">Our Story</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#location">Location</a>
+          </div>
+
+          <div>
+            <span>CONTACT</span>
+            <a href="tel:+962799935135">079 993 5135</a>
+            <a href="#">Instagram</a>
+            <a href="#location">Amman, Jordan</a>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="footer-bottom">
+
+        <span>© 2026 COWS BURGER</span>
+
+        <span>CHARCOALED WITH LOVE</span>
+
+        <a href="#home">BACK TO TOP ↑</a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================
+       FLOATING ORDER
+  ========================== -->
+  <a href="tel:+962799935135" class="floating-order">
+    <span class="floating-icon">☎</span>
+    <span data-en="ORDER" data-ar="اطلب">ORDER</span>
+  </a>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
